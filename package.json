@@ -1,0 +1,26 @@
+{
+  "name": "picgo-plugin-ali",
+  "version": "1.0.0",
+  "description": "阿里图床",
+  "main": "src/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://github.com/Yukuiii/picgo-plugin-ali.git",
+  "scripts": {
+    "publish": "npm publish --registry https://registry.npmjs.org",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "patch": "npm version patch && git push origin master && git push origin --tags",
+    "minor": "npm version minor && git push origin master && git push origin --tags",
+    "major": "npm version major && git push origin master && git push origin --tags"
+  },
+  "keywords": [
+    "picgo",
+    "picgo-gui-plugin",
+    "picgo-plugin",
+    "picgo-plugin-ali"
+  ],
+  "author": "Yukuii",
+  "license": "MIT",
+  "devDependencies": {}
+}
